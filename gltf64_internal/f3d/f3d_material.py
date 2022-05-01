@@ -974,7 +974,7 @@ color_combiner_inputs = {
 	'SCALE'  : ("CombinerInputs", "Chroma Key Scale"),
 	'COMBINED_ALPHA' : (None, "Alpha"),
 	'TEXEL0_ALPHA'  : ("Tex0_I", "Alpha"),
-	'TEXEL1_ALPHA'  : ("Tex0_I", "Alpha"),
+	'TEXEL1_ALPHA'  : ("Tex1_I", "Alpha"),
 	'PRIMITIVE_ALPHA': ("CombinerInputs", "Prim Alpha"),
 	'SHADE_ALPHA' : ("Shade Color", "Alpha"),
 	'ENV_ALPHA' : ("CombinerInputs", "Env Alpha"),
@@ -991,7 +991,7 @@ color_combiner_inputs = {
 alpha_combiner_inputs = {
 	'COMBINED' : (None, "Alpha"),
 	'TEXEL0' : ("Tex0_I", "Alpha"),
-	'TEXEL1' : ("Tex0_I", "Alpha"),
+	'TEXEL1' : ("Tex1_I", "Alpha"),
 	'PRIMITIVE' : ("CombinerInputs", "Prim Alpha"),
 	'SHADE' : ("Shade Color", "Alpha"),
 	'ENVIRONMENT' : ("CombinerInputs", "Env Alpha"),
